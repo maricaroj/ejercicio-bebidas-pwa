@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ejercicio-bebidas-pwa/static/css/main.9bde5c72.chunk.css",
+    "main.js": "/ejercicio-bebidas-pwa/static/js/main.6495a30a.chunk.js",
+    "main.js.map": "/ejercicio-bebidas-pwa/static/js/main.6495a30a.chunk.js.map",
+    "runtime-main.js": "/ejercicio-bebidas-pwa/static/js/runtime-main.3cc8c1fe.js",
+    "runtime-main.js.map": "/ejercicio-bebidas-pwa/static/js/runtime-main.3cc8c1fe.js.map",
+    "static/js/2.45bd3b0a.chunk.js": "/ejercicio-bebidas-pwa/static/js/2.45bd3b0a.chunk.js",
+    "static/js/2.45bd3b0a.chunk.js.map": "/ejercicio-bebidas-pwa/static/js/2.45bd3b0a.chunk.js.map",
+    "static/js/3.ee1ab0c3.chunk.js": "/ejercicio-bebidas-pwa/static/js/3.ee1ab0c3.chunk.js",
+    "static/js/3.ee1ab0c3.chunk.js.map": "/ejercicio-bebidas-pwa/static/js/3.ee1ab0c3.chunk.js.map",
+    "index.html": "/ejercicio-bebidas-pwa/index.html",
+    "service-worker.js": "/ejercicio-bebidas-pwa/service-worker.js",
+    "service-worker.js.map": "/ejercicio-bebidas-pwa/service-worker.js.map",
+    "static/css/main.9bde5c72.chunk.css.map": "/ejercicio-bebidas-pwa/static/css/main.9bde5c72.chunk.css.map",
+    "static/js/2.45bd3b0a.chunk.js.LICENSE.txt": "/ejercicio-bebidas-pwa/static/js/2.45bd3b0a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3cc8c1fe.js",
+    "static/js/2.45bd3b0a.chunk.js",
+    "static/css/main.9bde5c72.chunk.css",
+    "static/js/main.6495a30a.chunk.js"
+  ]
+}
