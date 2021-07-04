@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/ejercicio-bebidas-pwa/static/css/main.9bde5c72.chunk.css",
-    "main.js": "/ejercicio-bebidas-pwa/static/js/main.4f0adccb.chunk.js",
-    "main.js.map": "/ejercicio-bebidas-pwa/static/js/main.4f0adccb.chunk.js.map",
-    "runtime-main.js": "/ejercicio-bebidas-pwa/static/js/runtime-main.3cc8c1fe.js",
-    "runtime-main.js.map": "/ejercicio-bebidas-pwa/static/js/runtime-main.3cc8c1fe.js.map",
-    "static/js/2.d2d9aba2.chunk.js": "/ejercicio-bebidas-pwa/static/js/2.d2d9aba2.chunk.js",
-    "static/js/2.d2d9aba2.chunk.js.map": "/ejercicio-bebidas-pwa/static/js/2.d2d9aba2.chunk.js.map",
-    "static/js/3.ee1ab0c3.chunk.js": "/ejercicio-bebidas-pwa/static/js/3.ee1ab0c3.chunk.js",
-    "static/js/3.ee1ab0c3.chunk.js.map": "/ejercicio-bebidas-pwa/static/js/3.ee1ab0c3.chunk.js.map",
+    "main.js": "/ejercicio-bebidas-pwa/static/js/main.e69bc88c.chunk.js",
+    "main.js.map": "/ejercicio-bebidas-pwa/static/js/main.e69bc88c.chunk.js.map",
+    "runtime-main.js": "/ejercicio-bebidas-pwa/static/js/runtime-main.ac912c0e.js",
+    "runtime-main.js.map": "/ejercicio-bebidas-pwa/static/js/runtime-main.ac912c0e.js.map",
+    "static/js/2.7ee6e552.chunk.js": "/ejercicio-bebidas-pwa/static/js/2.7ee6e552.chunk.js",
+    "static/js/2.7ee6e552.chunk.js.map": "/ejercicio-bebidas-pwa/static/js/2.7ee6e552.chunk.js.map",
+    "static/js/3.babc1fbc.chunk.js": "/ejercicio-bebidas-pwa/static/js/3.babc1fbc.chunk.js",
+    "static/js/3.babc1fbc.chunk.js.map": "/ejercicio-bebidas-pwa/static/js/3.babc1fbc.chunk.js.map",
     "index.html": "/ejercicio-bebidas-pwa/index.html",
     "service-worker.js": "/ejercicio-bebidas-pwa/service-worker.js",
     "service-worker.js.map": "/ejercicio-bebidas-pwa/service-worker.js.map",
     "static/css/main.9bde5c72.chunk.css.map": "/ejercicio-bebidas-pwa/static/css/main.9bde5c72.chunk.css.map",
-    "static/js/2.d2d9aba2.chunk.js.LICENSE.txt": "/ejercicio-bebidas-pwa/static/js/2.d2d9aba2.chunk.js.LICENSE.txt"
+    "static/js/2.7ee6e552.chunk.js.LICENSE.txt": "/ejercicio-bebidas-pwa/static/js/2.7ee6e552.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.3cc8c1fe.js",
-    "static/js/2.d2d9aba2.chunk.js",
+    "static/js/runtime-main.ac912c0e.js",
+    "static/js/2.7ee6e552.chunk.js",
     "static/css/main.9bde5c72.chunk.css",
-    "static/js/main.4f0adccb.chunk.js"
+    "static/js/main.e69bc88c.chunk.js"
   ]
 }
