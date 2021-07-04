@@ -1,7 +1,7 @@
 import { useContext, useState } from "react";
 import { ModalContext } from "../context/ModalContext";
 
-import { Modal, Button } from "@material-ui/core";
+import { Modal, Button, Grid } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme) => ({
@@ -16,19 +16,21 @@ const useStyles = makeStyles((theme) => ({
     transform: "translate(-50%, -50%)",
     color: theme.palette.error.contrastText,
     fontFamily: 'Maven Pro',
-    fontSize: '20px'
+    fontSize: '1.25rem',
+    overflow: 'auto',
+    maxHeight: 550
   },
   container: {
     textAlign: "right",
   },
   title: {
     fontFamily: 'Shadows Into Light',
-    fontSize:'50px',
+    fontSize:'3.12rem',
     color: theme.palette.error.contrastText,
   },
   btn: {
     fontFamily: 'Shadows Into Light',
-    fontSize:'20px',
+    fontSize:'1.25rem',
     color: theme.palette.error.contrastText,
   }
 }));
@@ -57,7 +59,7 @@ const Receta = ({ receta }) => {
   listaIngredientes();
 
   const body = (
-    <div className={styles.modal}>
+    <Grid item xs={12} sm={6} className={styles.modal}>
       <h2 className={styles.title}>{recetaModal.strDrink}</h2>
       <span>
         <b>Ingredients:</b>
@@ -78,7 +80,7 @@ const Receta = ({ receta }) => {
           Cerrar
         </Button>
       </div>
-    </div>
+    </Grid>
   );
 
   return (
