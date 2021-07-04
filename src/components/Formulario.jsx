@@ -11,6 +11,8 @@ const Formulario = () => {
     categoria: "",
   });
 
+  const [error, setError] = useState(false);
+
   const obtenerDatosReceta = (e) => {
     setBusqueda({
       ...busqueda,
@@ -23,6 +25,14 @@ const Formulario = () => {
       className="col-12"
       onSubmit={(e) => {
         e.preventDefault();
+        if (busqueda.categoria === "" && busqueda.nombre.trim().length === 0) {
+          setError(true);
+          setTimeout(() => {
+            setError(false);
+          }, 1500);
+          return;
+        }
+        setError(false);
         setBusquedaReceta(busqueda);
         setConsultar(true);
         setBusqueda({
@@ -40,7 +50,7 @@ const Formulario = () => {
             type="text"
             name="nombre"
             className="form-control"
-            placeholder="Buscar por Ingrediente"
+            placeholder={error ? "¡Escríbeme!" : "Buscar por Ingrediente"}
             onChange={obtenerDatosReceta}
             value={busqueda.nombre}
           />
@@ -52,7 +62,11 @@ const Formulario = () => {
             onChange={obtenerDatosReceta}
             value={busqueda.categoria}
           >
-            <option value="categoria">--Buscar por Categoría--</option>
+            {error ? (
+              <option value="categoria"> ¡Seleccioname! </option>
+            ) : (
+              <option value="categoria">--Buscar por Categoría--</option>
+            )}
             {categorias.map((categoria) => (
               <option key={categoria.strCategory} value={categoria.strCategory}>
                 {categoria.strCategory}
