@@ -51,7 +51,7 @@ const Receta = ({ receta }) => {
         break;
       }
       ingrediente.push(
-        recetaModal[`strMeasure${i}`] + " — " + recetaModal[`strIngredient${i}`]
+        `${recetaModal[`strMeasure${i}`] === null ? '' : recetaModal[`strMeasure${i}`]} —  ${recetaModal[`strIngredient${i}`]}`
       );
     }
     return ingrediente;
