@@ -32,7 +32,6 @@ const Formulario = () => {
           }, 1500);
           return;
         }
-        setError(false);
         setBusquedaReceta(busqueda);
         setConsultar(true);
         setBusqueda({
