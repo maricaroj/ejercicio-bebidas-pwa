@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ejercicio-bebidas-pwa/static/css/main.9bde5c72.chunk.css",
-    "main.js": "/ejercicio-bebidas-pwa/static/js/main.ba992bbe.chunk.js",
-    "main.js.map": "/ejercicio-bebidas-pwa/static/js/main.ba992bbe.chunk.js.map",
+    "main.js": "/ejercicio-bebidas-pwa/static/js/main.4d21b074.chunk.js",
+    "main.js.map": "/ejercicio-bebidas-pwa/static/js/main.4d21b074.chunk.js.map",
     "runtime-main.js": "/ejercicio-bebidas-pwa/static/js/runtime-main.ac912c0e.js",
     "runtime-main.js.map": "/ejercicio-bebidas-pwa/static/js/runtime-main.ac912c0e.js.map",
     "static/js/2.7ee6e552.chunk.js": "/ejercicio-bebidas-pwa/static/js/2.7ee6e552.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.ac912c0e.js",
     "static/js/2.7ee6e552.chunk.js",
     "static/css/main.9bde5c72.chunk.css",
-    "static/js/main.ba992bbe.chunk.js"
+    "static/js/main.4d21b074.chunk.js"
   ]
 }
